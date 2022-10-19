@@ -12,13 +12,13 @@ export default function Header() {
   }
 
   return (
-    <div className='bg-red border-b shadow-sm sticky top-0 z-50'>
+     <div className="bg-blue-300 border-b shadow-sm sticky top-0 z-50">
         <header className='flex justify-between px-3 max-w-6xl mx-auto'>
            <div className='flex items-center'>
-              <ImHome3 size={50} className='fill-amber-300 cursor-pointer p-3 }'
+              <ImHome3 size={40} className='fill-orange-300 cursor-pointer  }'
               onClick={() => navigate('/')}
               />              
-             <span className='text-xl text-amber-600 cursor-pointer p-3' onClick={() => navigate('/')}>Home Real Property</span>
+             <span className='text-xl font-semibold text-amber-600 cursor-pointer p-3' onClick={() => navigate('/')}>Home Real Property</span>
            </div>  
            <div>
               <ul className='flex space-x-10 py-3'>
